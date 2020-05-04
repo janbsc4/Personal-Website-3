@@ -11,12 +11,21 @@ body {
 }
 blockquote {
 	padding: 10px;
-	background: #eee;
+	background: WhiteSmoke;
 	border-radius: 3px;
 }
 
-#navigation {
-	background: #F5F6F3;
+a {
+	color: #222427;
+}
+
+#footer {
+	background-color: LightCyan;
+	padding: 10px;
+}
+
+#header {
+	background-color: BlanchedAlmond;
 	padding: 10px;
 }
 
