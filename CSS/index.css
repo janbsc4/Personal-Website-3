@@ -4,6 +4,22 @@ img {
 
 body {
 	font-family: sans-serif;
+	font-size: 18px;
 	line-height: 1.6;
 	max-width: 750px;
+	color: #222427;
+}
+blockquote {
+	padding: 10px;
+	background: #eee;
+	border-radius: 3px;
+}
+
+#navigation {
+	background: #F5F6F3;
+	padding: 10px;
+}
+
+#notes {
+	color: grey;
 }
