@@ -1,3 +1,4 @@
 Commit Hash;SpeedIndex (seconds);Bytes In (kilobytes);Requests;CPU Usage (highest %)
 ;;;;
-c1f9520226905401335834dfa813613ec7e704bb;0,300;31;6;5 %
+0d441a0b1912f6a73f58165190ab0d2d82bc3881;0,3;31;5;5,9 %
+c1f9520226905401335834dfa813613ec7e704bb;0,3;31;6;5 %

@@ -1,28 +1,24 @@
+@font-face {
+  font-family: "GlacialIndifference";
+  src: url("Fonts/GI-Regular/GlacialIndifference-Regular.otf") format("opentype");
+}
+
 /*Elements*/
 body {
-	font-family: sans-serif;
+	font-family: GlacialIndifference, sans-serif;
 	font-size: 18px;
 	line-height: 1.6;
 	max-width: 750px;
 	color: #222427;
 	margin: 30px;
+	background: #F5F6F3;
 }
 
-h1 {
-	font-size: 2.6rem;
-}
+h1 { font-size: 2.6rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.2rem; }
 
-h2 {
-	font-size: 1.8rem;
-}
-
-h3 {
-	font-size: 1.5rem;
-}
-
-h4 {
-	font-size: 1.2rem;
-}
 
 img {
 	max-width: 280px;
@@ -30,8 +26,9 @@ img {
 
 blockquote {
 	padding: 10px;
-	background: WhiteSmoke;
-	border-radius: 3px;
+	font-style: italic;
+	font-size: 1.2rem;
+	color: #595b5d;
 }
 
 a {
@@ -43,55 +40,52 @@ figure {
 }
 
 figcaption {
-	color: grey;
+	color: #595b5d;
 }
 
 ::selection {
-	background-color: coral;
-	color: white;
+	background-color: #FFF275;
 }
 
 a:hover {
-	color: coral;
+	color: #595b5d;
 }
 
 /*Classes*/
 .notes {
-	color: grey;
+	color: #747678;
 }
 
-
-/*ID's*/
-#navbar ul {
+.navbar ul {
 	font-size: 1.5rem;
 	margin: 0;
 	padding: 0;
 }
 
-#navbar li {
+.navbar li {
 	display: inline;
 	text-align: right;
 	padding-right: 10px;
 	}
 
-#navbar a {
+.navbar a {
 	text-decoration: none;
 }
 
-#navbar li:first-child a {
-	color: grey;
+.navbar li:first-child a {
+	color: #595b5d;
 }
 
-#navfooter {
+.navfooter {
 	margin-top: 50px;
 }
 
-#navfooter ul {
+.navfooter ul {
 	margin: 0;
 	padding: 0;
 }
 
-#navfooter li {
+.navfooter li {
 	display: inline;
 	text-align: right;
 	padding-right: 10px;
