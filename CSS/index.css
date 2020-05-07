@@ -1,27 +1,27 @@
 @font-face {
   font-family: GlacialIndifference;
-  src: url("/Fonts/GI-Regular/GlacialIndifference-Regular.woff2/FontsGlacialIndifference-Regular.woff2") format("woff2");
+  src: url("/Fonts/GI-Regular/GlacialIndifference-Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: GlacialIndifference;
-  src: url("/Fonts/GI-Italic/GlacialIndifference-Italic.woff2/FontsGlacialIndifference-Italic.woff2") format("woff2");
+  src: url("/Fonts/GI-Italic/GlacialIndifference-Italic.woff2") format("woff2");
   font-style: italic;
   font-weight: normal;
 }
 
 @font-face {
   font-family: GlacialIndifference;
-  src: url("/Fonts/GI-Bold/GlacialIndifference-Bold.woff2/FontsGlacialIndifference-Bold.woff2") format("woff2");
+  src: url("/Fonts/GI-Bold/GlacialIndifference-Bold.woff2") format("woff2");
   font-style: normal;
   font-weight: bold;
 }
 
 /*Elements*/
 body {
-	font-family: GlacialIndifference, serif;
+	font-family: GlacialIndifference;
 	font-size: 18px;
 	line-height: 1.6;
 	max-width: 750px;
