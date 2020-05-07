@@ -1,17 +1,33 @@
 @font-face {
-  font-family: "GlacialIndifference";
-  src: url("Fonts/GI-Regular/GlacialIndifference-Regular.otf") format("opentype");
+  font-family: GlacialIndifference;
+  src: url("/Fonts/GI-Regular/GlacialIndifference-Regular.woff2/FontsGlacialIndifference-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: GlacialIndifference;
+  src: url("/Fonts/GI-Italic/GlacialIndifference-Italic.woff2/FontsGlacialIndifference-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: GlacialIndifference;
+  src: url("/Fonts/GI-Bold/GlacialIndifference-Bold.woff2/FontsGlacialIndifference-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: bold;
 }
 
 /*Elements*/
 body {
-	font-family: GlacialIndifference, sans-serif;
+	font-family: GlacialIndifference, serif;
 	font-size: 18px;
 	line-height: 1.6;
 	max-width: 750px;
 	color: #222427;
-	margin: 30px;
-	background: #F5F6F3;
+	margin: 0 auto;
+	padding: 20px;
 }
 
 h1 { font-size: 2.6rem; }
