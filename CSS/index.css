@@ -1,33 +1,39 @@
 /*Fonts*/
 @font-face {
-  font-family: GlacialIndifference;
-  src: url("../Fonts/GI-Regular/GlacialIndifference-Regular.woff2") format("woff2");
+  font-family: CrimsonText;
+  src: url("../Fonts/Crimson_Text/CrimsonText-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: GlacialIndifference;
-  src: url("../Fonts/GI-Bold/GlacialIndifference-Bold.woff2") format("woff2");
+  font-family: CrimsonText;
+  src: url("../Fonts/Crimson_Text/CrimsonText-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
-  font-family: EB_Garamond;
-  src: url("../Fonts/EB_Garamond/static/EBGaramond-Regular.ttf") format("truetype");
-  font-style: normal;
+  font-family: CrimsonText;
+  src: url("../Fonts/Crimson_Text/CrimsonText-Italic.ttf") format("truetype");
+  font-style: italic;
   font-weight: normal;
 }
 
+@font-face {
+  font-family: CrimsonText;
+  src: url("../Fonts/Crimson_Text/CrimsonText-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
 
 
 /*Elements*/
 body {
-	font-family: EB_Garamond, serif;
-	font-size: 18px;
+	font-family: CrimsonText, serif;
+	font-size: 20px;
 	line-height: 1.6;
-	max-width: 700px;
+	max-width: 600px;
 	color: #222427;
 	margin: 0 auto;
 	padding: 20px;
@@ -38,10 +44,10 @@ h2 { font-size: 1.8rem; }
 h3 { font-size: 1.5rem; }
 h4 { font-size: 1.2rem; }
 
-h1, h2, h3, h4, h5, h6 {font-family: GlacialIndifference, Arial, sans-serif}
+h2, h3, h4, h5, h6 {font-weight: 600;}
 
 img {
-	max-width: 280px;
+	max-width: 300px;
 }
 
 blockquote {
@@ -79,7 +85,6 @@ a:hover {
 
 .navbar {
 	margin-bottom: 60px;
-	font-family: GlacialIndifference, Arial, sans-serif;
 }
 
 .navbar ul {
