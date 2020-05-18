@@ -40,9 +40,9 @@ body {
 }
 
 h1 { font-size: 2.6rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.8rem; }
-h4 { font-size: 1.6rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.45rem; }
 h5 { font-size: 1.4rem; }
 h6 { font-size: 1.25rem; }
 
@@ -82,6 +82,15 @@ a:hover {
 }
 
 /*Classes*/
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box {
+	width: 45%;
+}
+
 .notes {
 	color: #595b5d;
 }
@@ -98,7 +107,6 @@ a:hover {
 
 .navbar li {
 	display: inline;
-	text-align: right;
 	padding-right: 0.625rem;
 	}
 
@@ -121,6 +129,5 @@ a:hover {
 
 .navfooter li {
 	display: inline;
-	text-align: right;
 	padding-right: 0.625rem;
 }
