@@ -8,13 +8,6 @@
 
 @font-face {
   font-family: CrimsonText;
-  src: url("../Fonts/Crimson_Text/CrimsonText-Bold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: CrimsonText;
   src: url("../Fonts/Crimson_Text/CrimsonText-Italic.ttf") format("truetype");
   font-style: italic;
   font-weight: normal;
@@ -24,7 +17,7 @@
   font-family: CrimsonText;
   src: url("../Fonts/Crimson_Text/CrimsonText-SemiBold.ttf") format("truetype");
   font-style: normal;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 
@@ -39,6 +32,7 @@ body {
 	box-sizing: border-box;
 	min-height: 100vh;
 	margin: 0 auto;
+	color: #222427;
 }
 
 article, nav ul, section > div {
@@ -70,7 +64,7 @@ nav ul li:not(:last-child) {
 	margin-right: 1em;
 }
 
-nav ul li a {
+header nav ul li a {
 	text-decoration: none;
 }
 
@@ -86,8 +80,6 @@ h1 {
 	margin-top: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {font-weight: 600;}
-
 span {
 	color: #595b5d;
 }
@@ -98,11 +90,11 @@ section {
 }
 
 main section:first-of-type, main article:first-of-type {
-	margin-top: 5rem;
+	margin-top: 3rem;
 }
 
 section div {
-	flex: 1 1 50%;
+	flex: 1 1 auto;
 }
 
 
@@ -112,7 +104,7 @@ article {
 }
 
 img {
-	width: 15rem;
+	width: 17rem;
 }
 
 blockquote {
@@ -145,6 +137,22 @@ a:hover {
 	color: #595b5d;
 }
 
+input[type="submit"] {
+	background-color: #FFF275;
+	font-size: 1rem;
+	font-family: CrimsonText, serif;
+	margin-top: 1rem;
+	padding: 0.3rem;
+}
+
+input[type="submit"]:hover {
+	background-color: #FFEC49;
+	color: #222427;	
+}
+
+input[type="submit"]:active {
+	color: #222427;		
+}
 
 /*Classes*/
 .notes {
@@ -173,4 +181,9 @@ a:hover {
 	.newsletter {
 		margin-left: 0;
 	}
+
+	main section:first-of-type, main article:first-of-type {
+		margin-top: 1rem;
+	}
+
 }
