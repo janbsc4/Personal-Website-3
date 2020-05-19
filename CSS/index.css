@@ -41,7 +41,7 @@ body {
 	margin: 0 auto;
 }
 
-article, nav ul, section div {
+article, nav ul, section > div {
 	padding: 20px;
 }
 
@@ -82,14 +82,29 @@ h5 { font-size: 1.4rem; }
 h6 { font-size: 1.25rem; }
 
 h1 {
-	line-height: 1em;
+	line-height: 1.2em;
+	margin-top: 0;
 }
 
-h2, h3, h4, h5, h6 {font-weight: 600;}
+h1, h2, h3, h4, h5, h6 {font-weight: 600;}
+
+span {
+	color: #595b5d;
+}
 
 section {
 	display: flex;
+	justify-content: space-between;
 }
+
+main section:first-of-type, main article:first-of-type {
+	margin-top: 5rem;
+}
+
+section div {
+	flex: 1 1 50%;
+}
+
 
 article {
 	max-width: 35rem;
@@ -97,7 +112,7 @@ article {
 }
 
 img {
-	max-width: 100%;
+	width: 15rem;
 }
 
 blockquote {
@@ -110,6 +125,8 @@ blockquote {
 
 a {
 	color: #222427;
+	text-decoration-thickness: 0.04em;
+	text-decoration-color: #595b5d;
 }
 
 figure {
@@ -145,7 +162,6 @@ a:hover {
 .navfooter nav ul li {
 	font-size: 1.25rem;
 }
-
 
 /*Media Queries*/
 @media screen and (max-width: 600px){
