@@ -75,9 +75,8 @@ h4 { font-size: 1.45rem; }
 h5 { font-size: 1.4rem; }
 h6 { font-size: 1.25rem; }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2em;
-	margin-top: 0;
 }
 
 span {
@@ -158,6 +157,15 @@ input[type="submit"]:active {
 .notes {
 	color: #595b5d;
 }
+
+.notes h4 + p {
+	margin-top: 0;
+}
+
+.notes h4 {
+	margin-bottom: 0.5rem;
+}
+
 
 .newsletter {
 	margin-left: auto;
