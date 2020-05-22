@@ -32,7 +32,7 @@ body {
 	box-sizing: border-box;
 	min-height: 100vh;
 	margin: 0 auto;
-	color: #222427;
+	color: #1E2023;
 }
 
 article, nav ul, section > div {
@@ -115,7 +115,7 @@ blockquote {
 }
 
 a {
-	color: #222427;
+	color: #1E2023;
 	text-decoration-thickness: 0.04em;
 	text-decoration-color: #595b5d;
 }
@@ -146,11 +146,11 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
 	background-color: #FFEC49;
-	color: #222427;	
+	color: #1E2023;	
 }
 
 input[type="submit"]:active {
-	color: #222427;		
+	color: #1E2023;		
 }
 
 /*Classes*/
