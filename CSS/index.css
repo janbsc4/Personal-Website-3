@@ -58,10 +58,18 @@ ul {
 }
 
 nav ul {
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	display: flex;
 	list-style: none;
 	flex-flow: row wrap;
+}
+
+header nav ul li:last-of-type {
+	margin-left: auto;
+}
+
+header nav ul li:nth-of-type(2) {
+	margin-left: auto;
 }
 
 nav ul li:not(:last-child) {
@@ -83,9 +91,10 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2em;
 }
 
-/*span {
-	color: #595b5d;
-}*/
+main article h1 {
+	text-align: center;
+	margin-bottom: 80px;
+}
 
 section {
 	display: flex;
@@ -157,22 +166,12 @@ input[type="submit"]:active {
 	color: #1E2023;		
 }
 
-/*Classes*/
-/*.notes {
-	color: #595b5d;
-}*/
-
 .notes h4 + p {
 	margin-top: 0;
 }
 
 .notes h4 {
 	margin-bottom: 0.5rem;
-}
-
-
-.newsletter {
-	margin-left: auto;
 }
 
 .navfooter {
@@ -190,26 +189,11 @@ input[type="submit"]:active {
 
 .smiley {
 	transition: transform 1s 0.01s;
-	width: 22px;
+	width: 20px;
 }
 
 .smiley:hover {
-/*	transform: rotate(540deg);*/
-transform: translateX(100px) rotate(380deg);
-}
-
-@keyframes flyIn {
-  0% {
-    transform: translateY(6px);
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.flyIn, section, article {
-	animation: flyIn 0.5s;
+transform: translate(100px, -40px) rotate(380deg) scale(5);
 }
 
 
@@ -242,5 +226,14 @@ transform: translateX(100px) rotate(380deg);
 
 	nav li:first-child a, a:hover, span, figcaption, blockquote, .notes {
 	color: #ABADAE;
+	}
+
+	img {
+		opacity: 0.75;
+		transition: opacity .5s ease-in-out;	
+	}
+
+	img:hover {
+		opacity: 1;
 	}
 }
