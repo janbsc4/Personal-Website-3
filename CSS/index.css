@@ -1,21 +1,21 @@
 /*Fonts*/
 @font-face {
-  font-family: CrimsonText;
-  src: url("../Fonts/Crimson_Text/CrimsonText-Regular.ttf") format("truetype");
+  font-family: Lato;
+  src: url("../Fonts/Lato/Lato-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: CrimsonText;
-  src: url("../Fonts/Crimson_Text/CrimsonText-Italic.ttf") format("truetype");
+  font-family: Lato;
+  src: url("../Fonts/Lato/Lato-Italic.ttf") format("truetype");
   font-style: italic;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: CrimsonText;
-  src: url("../Fonts/Crimson_Text/CrimsonText-SemiBold.ttf") format("truetype");
+  font-family: Lato;
+  src: url("../Fonts/Lato/Lato-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: bold;
 }
@@ -23,8 +23,8 @@
 
 /*Elements*/
 body {
-	font-family: CrimsonText, serif;
-	font-size: 1.25rem;
+	font-family: Lato, sans-serif;
+	font-size: 1.1rem;
 	line-height: 1.6;
 	display: flex;
 	flex-flow: column nowrap;
@@ -36,41 +36,37 @@ body {
 }
 
 article, nav ul, section > div {
-	padding: 20px;
+	padding: 2rem;
 }
+
+/*header {
+	  background: #3D3F42;
+}*/
 
 nav ul {
   display: flex;
   list-style: none;
   flex-flow: row wrap;
+  font-size: 1.4rem;
+  list-style: none;
+  justify-content: center;
 }
-
-/*nav li:first-child a {
-	color: #595b5d;
-}*/
 
 nav li:first-child a, a:hover, span, figcaption, blockquote, .notes {
 color: #595b5d;
 }
 
-ul {
+/*ul {
 	margin: 0;
-}
+}*/
 
-nav ul {
-	font-size: 1.4rem;
-	display: flex;
-	list-style: none;
-	flex-flow: row wrap;
-}
-
-header nav ul li:last-of-type {
+/*header nav ul li:last-of-type {
 	margin-left: auto;
-}
+}*/
 
-header nav ul li:nth-of-type(2) {
+/*header nav ul li:nth-of-type(2) {
 	margin-left: auto;
-}
+}*/
 
 nav ul li:not(:last-child) {
 	margin-right: 1em;
@@ -140,18 +136,10 @@ figure {
 	margin: 0;
 }
 
-/*figcaption {
-	color: #595b5d;
-}*/
-
 ::selection {
 	background-color: #FFF275;
 }
 
-/*a:hover {
-	color: #595b5d;
-}
-*/
 input[type="submit"] {
 	background-color: #FFF275;
 	font-size: 1rem;
