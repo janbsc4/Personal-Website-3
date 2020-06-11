@@ -33,6 +33,7 @@ body {
 	min-height: 100vh;
 	margin: 0 auto;
 	color: #1E2023;
+	background-color: #F5F2F0;
 }
 
 article, nav ul, section > div {
