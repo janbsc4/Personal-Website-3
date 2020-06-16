@@ -182,12 +182,12 @@ input[type="submit"]:active {
 
 
 .smiley {
-	transition: transform 1s 0.01s;
-	width: 20px;
+	transition: transform 1.1s 0.01s;
+	width: 40px;
 }
 
-.smiley:hover {
-transform: translate(100px, -40px) rotate(380deg) scale(5);
+.gosmiley {
+transform: translate(200px, -40px) rotate(330deg) scale(3);
 }
 
 .image {
