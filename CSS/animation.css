@@ -1,0 +1,21 @@
+@keyframes rollAround {
+/*	0% {
+		transform: translateX(0) rotate(200deg) scale(1); 
+	}*/
+	0% {
+		transform: translateX(-400px) rotate(0deg) scale(1); 
+	}
+
+	50% {
+		transform: translateX(1000px) rotate(1200deg) scale(0.5);
+	}
+	100% {
+		transform: translateX(-1000px) rotate(-1200deg) scale(0.01);
+	}	
+
+}
+
+.sheep {
+	animation: 20s ease 1s 1 rollAround;
+	animation-fill-mode: forwards;
+}

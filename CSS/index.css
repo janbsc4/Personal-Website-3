@@ -20,7 +20,6 @@
 	font-weight: bold;
 }
 
-
 /*General formatting*/
 body {
 	font-family: Lato, sans-serif;
@@ -38,7 +37,7 @@ body {
 main {
 	max-width: 50rem;
 	margin: 0 auto;
-	padding: 1rem;
+	padding: 3rem 0;
 }
 
 article { max-width: 35rem; }
@@ -74,7 +73,7 @@ nav ul {
 	list-style: none;
 	justify-content: center;
 	margin: 0;
-	padding: 1rem;
+	padding: 0.7rem;
 }
 
 nav ul li:not(:last-child) {
@@ -95,9 +94,11 @@ nav ul li a:hover {
 	color: #F5F2F0;
 }
 
-
 /*Headers*/
-h1 { text-align: center; }
+h1 { 
+	text-align: center;
+	margin-bottom: 3rem;
+}
 
 h1 { font-size: 2.6rem; }
 h2 { font-size: 1.7rem; }
@@ -109,8 +110,6 @@ h6 { font-size: 1.2rem; }
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.4em;
 }
-
-h1 { margin: 3rem auto; }
 
 /*Classes*/
 .navfooter {
