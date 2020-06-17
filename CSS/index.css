@@ -38,6 +38,7 @@ body {
 main {
 	max-width: 50rem;
 	margin: 0 auto;
+	padding: 1rem;
 }
 
 article { max-width: 35rem; }
@@ -99,20 +100,17 @@ nav ul li a:hover {
 h1 { text-align: center; }
 
 h1 { font-size: 2.6rem; }
-h2 { font-size: 1.8rem; }
-h3 { font-size: 1.6rem; }
-h4 { font-size: 1.45rem; }
-h5 { font-size: 1.4rem; }
-h6 { font-size: 1.25rem; }
+h2 { font-size: 1.7rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.3rem; }
+h6 { font-size: 1.2rem; }
 
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.4em;
 }
 
-h1 {
-	margin-top: 4rem;
-	margin-bottom: 3rem;
-}
+h1 { margin: 3rem auto; }
 
 /*Classes*/
 .navfooter {
