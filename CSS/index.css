@@ -137,12 +137,16 @@ h1 {
 @supports (grid-area: auto) {
 	@media screen and (min-width: 45rem) {
 		.grid3 {
-		    display: grid;
-		    grid-template-columns: 1fr 1fr 1fr;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
 		}
 		.grid2 {
-		    display: grid;
-		    grid-template-columns: auto auto;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
+		.grid2auto {
+			display: grid;
+			grid-template-columns: auto auto;
 		}
 	}
 }
