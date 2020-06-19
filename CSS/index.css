@@ -29,7 +29,7 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	color: #1E2023;
-	background-color: #F5F2F0;
+	background-color: #FFFDFB;
 	display: flex;
 	flex-flow: column nowrap;
 }
@@ -82,16 +82,16 @@ nav ul li:not(:last-child) {
 
 nav ul li a {
 	text-decoration: none;
-	color: #F5F2F0;
+	color: #FFFDFB;
 }
 
 nav ul li {
-	color: #F5F2F0;
+	color: #FFFDFB;
 }
 
 nav ul li a:hover {
 	text-decoration: underline;
-	color: #F5F2F0;
+	color: #FFFDFB;
 }
 
 /*Headers*/
@@ -125,6 +125,10 @@ h1, h2, h3, h4, h5, h6 {
 	align-self: center;
 }
 
+.justifyCenter {
+	justify-self: center;
+}
+
 .bigText {
 	font-size: 1.4rem;
 	text-align: center;
@@ -156,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	body, a {
-		color: #F5F2F0;
+		color: #FFFDFB;
 	}
 
 	a:hover, span, figcaption, blockquote, .notes {
