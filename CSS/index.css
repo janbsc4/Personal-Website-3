@@ -125,10 +125,6 @@ h1, h2, h3, h4, h5, h6 {
 	align-self: center;
 }
 
-.justifyCenter {
-	justify-self: center;
-}
-
 .bigText {
 	font-size: 1.4rem;
 	text-align: center;
@@ -148,6 +144,9 @@ h1, h2, h3, h4, h5, h6 {
 		.grid2auto {
 			display: grid;
 			grid-template-columns: auto auto;
+		}
+		.justifyCenter {
+		justify-self: center;
 		}
 	}
 }
