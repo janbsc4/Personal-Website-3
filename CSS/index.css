@@ -111,6 +111,10 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.4em;
 }
 
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	text-decoration: none;
+}
+
 /*Classes*/
 .navfooter {
 	margin-top: auto;
@@ -121,13 +125,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1.2rem;
 }
 
-.center {
-	align-self: center;
-}
-
 .bigText {
 	font-size: 1.4rem;
 	text-align: center;
+}
+
+.centerImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
 }
 
 /*Grid*/
@@ -145,8 +152,13 @@ h1, h2, h3, h4, h5, h6 {
 			display: grid;
 			grid-template-columns: auto auto;
 		}
-		.justifyCenter {
-		justify-self: center;
+
+		.center {
+			align-self: center;
+		}
+		
+		.centerImage {
+			width: 100%;
 		}
 	}
 }
