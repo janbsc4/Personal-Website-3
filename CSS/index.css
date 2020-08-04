@@ -24,12 +24,11 @@
 body {
 	font-family: Lato, sans-serif;
 	font-size: 1.1rem;
-	line-height: 1.6;
+	line-height: 1.7;
 	box-sizing: border-box;
 	min-height: 100vh;
 	margin: 0;
 	color: #1E2023;
-	background-color: #FFFDFB;
 	display: flex;
 	flex-flow: column nowrap;
 }
@@ -65,7 +64,7 @@ blockquote {
 
 /*Navbars*/
 nav ul {
-	background-color: #3D3F42;
+	background-color: #83878C;
 	display: flex;
 	list-style: none;
 	flex-flow: row wrap;
@@ -95,12 +94,12 @@ nav ul li a:hover {
 }
 
 /*Headers*/
-h1 { 
+h1, .heroHeading { 
 	text-align: center;
 	margin-bottom: 3rem;
 }
 
-h1 { font-size: 2.6rem; }
+h1, .heroHeading { font-size: 2.6rem; }
 h2 { font-size: 1.7rem; }
 h3 { font-size: 1.5rem; }
 h4 { font-size: 1.4rem; }
@@ -123,6 +122,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .navbar nav ul {
 	padding: 2rem;
 	font-size: 1.2rem;
+	background-color: #00AFB9;
 }
 
 .bigText {
