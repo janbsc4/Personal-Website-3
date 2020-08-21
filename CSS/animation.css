@@ -48,7 +48,7 @@
 
 /*Classes*/
 .sheep {
-	animation: rollAround 16s;
+	animation: rollAround 24s;
 	animation-fill-mode: forwards;
 }
 
@@ -59,11 +59,4 @@
 
 .slash:hover {
 	transform: rotate(120deg);
-}
-
-
-.stickman {
-	margin-bottom: -8px;
-	animation: leftRight 2.5s linear;
-	animation-fill-mode: forwards;
 }
