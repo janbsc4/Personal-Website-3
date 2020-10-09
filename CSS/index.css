@@ -69,7 +69,7 @@ hr {
 
 /*Navbars*/
 nav ul {
-	background-color: #595B5D;
+	background-color: #3D3F42;
 	display: flex;
 	list-style: none;
 	flex-flow: row wrap;
@@ -81,7 +81,7 @@ nav ul {
 }
 
 nav ul li:not(:last-child) {
-	margin-right: 1em;
+	margin-right: 1.5em;
 }
 
 nav ul li a {
@@ -104,7 +104,7 @@ h1, .heroHeading {
 	margin-bottom: 3rem;
 }
 
-h1, .heroHeading { font-size: 2.6rem; }
+h1, .heroHeading { font-size: 3rem; }
 h2 { font-size: 1.7rem; }
 h3 { font-size: 1.5rem; }
 h4 { font-size: 1.4rem; }
@@ -159,8 +159,8 @@ input[type=email] {
 }
 
 .navbar nav ul {
-	padding: 2rem;
-	font-size: 1.2rem;
+	padding: 1.3rem;
+/*	font-size: 1.2rem;*/
 	background-color: #3D3F42;
 }
 
