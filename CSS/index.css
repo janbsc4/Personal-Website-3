@@ -39,7 +39,7 @@ main {
 	padding: 3rem 0;
 }
 
-article { max-width: 35rem; }
+article { max-width: 40rem; }
 
 article, div > section, section {
 	padding: 1rem;
