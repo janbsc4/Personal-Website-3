@@ -1,21 +1,21 @@
 /*Fonts*/
 @font-face {
 	font-family: Chaparral;
-	src: url("/blog/fonts/chaparral-pro/chaparralpro-regular.otf") format("opentype");
+	src: url("/fonts/chaparral-pro/chaparralpro-regular.otf") format("opentype");
 	font-style: normal;
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: Chaparral;
-	src: url("/blog/fonts/chaparral-pro/chaparralpro-bold.otf") format("opentype");
+	src: url("/fonts/chaparral-pro/chaparralpro-bold.otf") format("opentype");
 	font-style: normal;
 	font-weight: bold;
 }
 
 @font-face {
 	font-family: Chaparral;
-	src: url("/blog/fonts/chaparral-pro/chaparralpro-italic.otf") format("opentype");
+	src: url("/fonts/chaparral-pro/chaparralpro-italic.otf") format("opentype");
 	font-style: italic;
 	font-weight: normal;
 }
@@ -36,6 +36,10 @@ p {
 
 blockquote {
 	font-style: italic;
+}
+
+ul {
+		line-height: 1.4;
 }
 
 nav ul {

@@ -9,7 +9,6 @@ module.exports = eleventyConfig => {
   ]);
 
   return {
-    // pathPrefix: "/blog/",
     dir: {
       output: 'docs'
     }
