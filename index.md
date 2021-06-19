@@ -1,6 +1,6 @@
 ---
 layout: layout.liquid
-pageTitle: Homepage
+pageTitle: Blog - Jan Balanya Scholl
 ---
 {% for post in collections.post reversed -%}
 <p><i>{{ post.date | date: "%d.%m.%Y" }}</i></p>
