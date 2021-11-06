@@ -7,20 +7,33 @@
 		<link href="{{ '/index.css' | url }}" type="text/css" rel="stylesheet">
 	</head>
     <body>
-    	<h2><a href="{{ '/' | url }}">Jan's Blog</a></h2>
+		<header class="navfooter">
+			<nav>
+				<ul>
+					<li><a href="{{ '/blog' | url }}">Blog</a></li>
+					<li>|</li>
+					<li><a href="{{ '/about-me' | url }}">About</a></li>				
+				</ul>
+			</nav>
+		</header>
+    	<h2><a href="{{ '/' | url }}">Jan Balanyà Scholl</a></h2>
+<!--     	<h3>Tracking & Analytics Consultant</h3> -->
+
+
+
 		{{ content }}
 
-			<footer class="navfooter">
-				<nav>
-					<ul>
-						<li><a href="{{ '/' | url }}">Home</a></li>
-						<li>|</li>
-						<li><a href="{{ '/about-me' | url }}">About</a></li>
-						<li>|</li>
-						<li><a href="{{ '/archive' | url }}">Archive</a></li>						
-					</ul>
-				</nav>
-			</footer>
+<!-- 		<footer class="navfooter">
+			<nav>
+				<ul>
+					<li><a href="{{ '/blog' | url }}">Blog</a></li>
+					<li>|</li>
+					<li><a href="{{ '/about-me' | url }}">About</a></li>
+					<li>|</li>
+					<li><a href="{{ '/archive' | url }}">Archive</a></li>						
+				</ul>
+			</nav>
+		</footer> -->
 	</body>
 
 </html>
