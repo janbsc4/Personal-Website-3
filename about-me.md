@@ -1,6 +1,6 @@
 ---
 layout: layout.liquid
-pageTitle: Jan Balanya Scholl - About me
+pageTitle: Jan Balanya Scholl - About Me
 ---
 # [About Me]({{ url | url }})
 <img src="{{ '/images/Jan-Balanya-Scholl.jpg' | url }}">

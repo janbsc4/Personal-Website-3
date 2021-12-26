@@ -5,7 +5,8 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy('images');
   eleventyConfig.setTemplateFormats([
     "md",
-    "css"
+    "css",
+    "png"
   ]);
 
   return {
