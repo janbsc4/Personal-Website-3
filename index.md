@@ -1,14 +1,8 @@
 ---
 layout: layout.liquid
-pageTitle: Welcome - Jan Balanya Scholl
+pageTitle: Jan Balanya Scholl - Home
 ---
-### Tracking & Analytics Consultant
 
-Hi :)
+Hi! I'm a tracking consultant from Barcelona, based in Berlin.
 
-Welcome to my page.
-
-It exists primarily to be a playground for me. Here I can try stuff and see what I can build.
-
-Nevertheless, feel free to have a look around.
-
+Read more [about me]({{ '/about-me' | url }}) or check out my small [blog]({{ '/blog' | url }}).

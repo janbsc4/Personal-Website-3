@@ -56,18 +56,32 @@ nav ul li:not(:last-child) {
 }
 
 a {
-	color: #0b090a;
+	color: #E63946;
 	text-decoration: none;
 }
 
 
 a:hover {
-  color: BurlyWood;
+  color: #FFBA49;
 }
+
+p a {
+	text-decoration: underline;
+} 
 
 img {
 	max-width: 100%;
 	max-height: 400px;
+}
+
+h1 {
+	font-size: 2.8em;
+	font-weight: normal;
+}
+
+
+.title {
+	color:  #403B3B;
 }
 
 @media only screen and (max-width: 600px) {
@@ -89,21 +103,13 @@ img {
 	body {
 		background-color: black;
 	}
-
-	body {
-		color: Cornsilk;
-	}
 	
-	a {
-		color: BurlyWood;
-	}
-
-	a:hover, span, figcaption, blockquote, .notes {
-	color: BlanchedAlmond;
+	body, span, figcaption, blockquote, .notes, .title {
+	color: #FFF6E8;
 	}
 
 	img {
-		opacity: 0.75;
+		opacity: 0.85;
 		transition: opacity .5s ease-in-out;	
 	}
 

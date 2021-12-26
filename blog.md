@@ -1,8 +1,8 @@
 ---
 layout: layout.liquid
-pageTitle: Blog
+pageTitle: Jan Balanya Scholl - Blog
 ---
-<a href="{{ '/archive' | url }}">Show me all articles</a>
+<a href="{{ '/archive' | url }}">All articles</a>
 
 {% for post in collections.post reversed -%}
 
