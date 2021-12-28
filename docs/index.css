@@ -65,6 +65,10 @@ a:hover {
   color: #FFBA49;
 }
 
+::selection {
+	background: #FFD38C;
+}
+
 p a {
 	text-decoration: underline;
 } 
@@ -78,7 +82,6 @@ h1 {
 	font-size: 2.8em;
 	font-weight: normal;
 }
-
 
 .title {
 	color:  #403B3B;
