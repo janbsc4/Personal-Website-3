@@ -1,4 +1,9 @@
-module.exports = eleventyConfig => {
+
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+
+module.exports = function(eleventyConfig) {
+
+  // eleventyConfig.addPlugin(UpgradeHelper);
   // Copy our static assets to the output folder
   eleventyConfig.addPassthroughCopy('css');
   eleventyConfig.addPassthroughCopy('fonts');
@@ -6,7 +11,6 @@ module.exports = eleventyConfig => {
   eleventyConfig.setTemplateFormats([
     "md",
     "css",
-    "png"
   ]);
 
   return {
