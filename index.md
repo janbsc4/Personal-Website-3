@@ -5,4 +5,4 @@ pageTitle: Jan Balanya Scholl - Home
 
 Hi! I'm a tracking consultant from Barcelona, based in Berlin.
 
-Read more [about me]({{ '/about-me' | url }}).
+Read more about me [here]({{ '/about-me' | url }}).
