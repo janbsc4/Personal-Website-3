@@ -12,3 +12,5 @@ I've studied business administration at the Free University of Berlin. My bachel
 I've worked at a Berliner startup as an online marketing manager, working on analytics, conversion and user journey optimisation.
 
 After that I took web development courses and started my current job as a tracking and analytics consultant at [Smart Digital](https://www.smart-digital.de). Smart Digital specialises in user-centric personalisation and data driven marketing.
+
+You can find me on LinkedIN [here](https://de.linkedin.com/in/jan-balanya-scholl).
