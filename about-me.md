@@ -5,12 +5,12 @@ pageTitle: Jan Balanya Scholl - About Me
 # [About Me]({{ url | url }})
 <img src="{{ '/images/Jan-Balanya-Scholl.jpg' | url }}">
 
-I'm a german-spanish guy from sunny Barcelona, based in less sunny Berlin.
+I'm a german-spanish human person from sunny Barcelona, based in less sunny Berlin.
 
-I've studied business administration at the Free University of Berlin. My bachelor thesis was about how executive self-interest affects firm outcomes.
+I've studied business administration at the Free University of Berlin.
 
-I've worked at a Berliner startup as an online marketing manager, working on analytics, conversion and user journey optimisation.
+I've worked at a Berliner startup as an online marketing manager, working on analytics and conversion optimisation.
 
-After that I took web development courses and started my current job as a tracking and analytics consultant at [Smart Digital](https://www.smart-digital.de). Smart Digital specialises in user-centric personalisation and data driven marketing.
+After that I took web development courses and started my current job as a tracking and analytics consultant at [Smart Digital](https://www.smart-digital.de). There, I manage data integration projects for our clients in the automtive industry.
 
 You can find me on LinkedIN [here](https://de.linkedin.com/in/jan-balanya-scholl).

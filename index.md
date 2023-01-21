@@ -3,6 +3,8 @@ layout: layout.liquid
 pageTitle: Jan Balanya Scholl - Home
 ---
 
-Hi! I'm a tracking consultant from Barcelona, based in Berlin.
+Hi! 
 
-Read more about me [here]({{ '/about-me' | url }}).
+I'm Jan. Nice to meet you!
+
+Read more [about me]({{ '/about-me' | url }}) or check out my neglected [blog]({{ '/archive' | url }}).
