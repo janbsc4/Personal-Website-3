@@ -2,7 +2,7 @@
 layout: layout.liquid
 pageTitle: Jan Balanya Scholl - Home
 ---
-
+# [Jan Balanyà Scholl]({{ url | url }})
 Hi! 
 
 I'm Jan. Nice to meet you!

@@ -1,5 +1,5 @@
 /*Fonts*/
-/*@font-face {
+@font-face {
 	font-family: Chaparral;
 	src: url("/fonts/chaparral-pro/chaparralpro-regular.otf") format("opentype");
 	font-style: normal;
@@ -19,7 +19,7 @@
 	font-style: italic;
 	font-weight: normal;
 }
-*/
+
 /*General*/
 
 html {
@@ -84,8 +84,8 @@ img {
 }
 
 h1 {
-	font-size: 2.6em;
-	font-weight: normal;
+	font-size: 3em;
+	font-family: Chaparral, serif;
 }
 
 .title {
