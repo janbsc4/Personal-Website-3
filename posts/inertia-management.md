@@ -18,7 +18,7 @@ My goal is not to judge but to make the case that this inertia can be managed. E
 
 Diverse industries have independently developed methods that give their users an advantage over the competition. What these methods have in common is that they temporarily pause inertia's effects over us. This way, they put the rational part of ourselves back in control, opening the gates to meaningful improvements.
 
-### Seeing beyond default
+## Seeing beyond default
 
 To pause the effects of inertia, I believe, the first step is to put our default and easy path into context. To realize that it's just one of many options.
 
@@ -36,7 +36,7 @@ In zero-based budgeting, you start from zero and then justifying every expense i
 
 In both code rewrites and zero-based budgeting a restart encourages exploring all the possible options. These methods work because they encourage a bird’s-eye view of the situation. With them, it becomes apparent that the familiar and easy are just one option among many.
 
-### The effort tipping point
+## The effort tipping point
 
 To pause inertia, however, it's not enough to explore and recognize new options. Being aware of a better option doesn’t make us automatically take it. Not by a long shot. I believe that it also takes getting to an effort tipping point.
 
@@ -50,7 +50,7 @@ The key is to really put all the items on the floor, even if it seems unnecessar
 
 At such an effort tipping point, there is no inertia because there is no easiest path. In this rare inertia-vacuum the rational self gets to make the decision.
 
-### Inertia on pause
+## Inertia on pause
 
 I have argued that escaping the pull of inertia takes two steps. First, it’s helpful to explore and consider all available options. One generally effective way of doing that is (re-)starting from zero.
 
