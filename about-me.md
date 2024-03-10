@@ -13,4 +13,4 @@ I've worked at a Berliner startup as an online marketing manager, working on ana
 
 After that I took web development courses and started my current job as a tracking and analytics consultant at [Credera](https://www.credera.com). There, I manage data integration projects for our clients in the automotive industry.
 
-You can find me on LinkedIN [here](https://de.linkedin.com/in/jan-balanya-scholl).
+You can find me on [LinkedIN](https://de.linkedin.com/in/jan-balanya-scholl).
