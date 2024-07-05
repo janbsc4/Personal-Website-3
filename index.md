@@ -7,4 +7,4 @@ Hi!
 
 I'm Jan. Nice to meet you!
 
-Read more [about me]({{ '/about-me' | url }}) or check out my neglected [blog]({{ '/archive' | url }}).
+Read more [about me]({{ '/about-me' | url }}) or find me on [LinkedIN](https://de.linkedin.com/in/jan-balanya-scholl).
