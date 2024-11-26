@@ -1,0 +1,13 @@
+---
+pageTitle: Mimics & Scapegoats
+date: 2024-11-24
+---
+Our desires are not our own. We imitate the desires of our models. Humans are great at mimicking others. Since we mimic the desires of others, we come into competition with each other. When this happens on a large scale, it causes a mimetic crisis. Mimetic crises can and have been temporarily solved via the scapegoating mechanism.
+
+Some kind of priest or leader picks out a scapegoat that he or she blames for the problems. This is often a person or group who stands out in some way (e.g., being disabled, being on the spectrum) and can’t fight back. Then the group expels or even murders the scapegoat. The scapegoat turns “all against all” into “all against one” and unifies the group. It acts as a stand-in for the violence we want to do to each other. In the expulsion or murder, we mimic as well. We imitate the first stone-thrower and evade individual responsibility. After the scapegoat is driven away or murdered, peace is usually temporarily restored. Because of its power in restoring peace, the scapegoat is often ascribed some magical or holy power after his or her death. Many cultures have substituted a human scapegoat with a ritualistic animal or material sacrifice. This ritual has repeated itself countless times throughout history. Usually, it has been told from the point of view of the society participating in scapegoating—the “winning” side.
+
+Jesus and the Bible turned this mechanism on its head. The story of the crucifixion of Jesus is revolutionary because it is scapegoating told from the victim's side. The reader knows that Jesus is innocent and recognizes the scapegoating as barbaric. The scapegoating doesn’t even work properly in restoring peace for long, as Jesus’ followers talk about his innocence and resurrection.
+
+What has been seen cannot be unseen. Once the scapegoating mechanism has been shown to be unfair and cruel, it loses its power as a mechanism for restoring peace. Since then, we have progressively inverted the concept and seem to be in a competition to protect victims from arbitrary violence. Even secular states pride themselves on protecting the victim. That’s how they get into conflict with religious groups, because they compete on the same ground. Both one-up each other in protecting innocent victims.
+
+*This text paraphrases and closely adheres to the ideas presented in [Wanting by Luke Burgis](https://en.wikipedia.org/wiki/Wanting:_The_Power_of_Mimetic_Desire_in_Everyday_Life), and the thoughts expressed are not necessarily my own.*

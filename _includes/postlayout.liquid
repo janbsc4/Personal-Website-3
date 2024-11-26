@@ -14,27 +14,28 @@
     	<header class="navfooter">
 			<nav>
 				<ul>
-					<li><a href="{{ '/' | url }}">Home</a></li>
+					<li><a href="{{ '/' | url }}">HOME</a></li>
 					<li>|</li>
-					<li><a href="{{ '/archive' | url }}">Blog</a></li>
+					<li><a href="{{ '/blog' | url }}">BLOG</a></li>
 					<li>|</li>
-					<li><a href="{{ '/about-me' | url }}">About</a></li>	
+					<li><a href="{{ '/about-me' | url }}">ABOUT</a></li>	
 				</ul>
 			</nav>
 		</header>
 	 	<main>
 	 		<h1><a href="{{ url | url }}">{{ pageTitle }}</a></h1>
+	 		{{ post.date | date: "%d.%m.%Y" }}
 			{{ content }}
 		</main>
 
 		<footer class="navfooter">
 			<nav>
 				<ul>
-					<li><a href="{{ '/' | url }}">Home</a></li>
+					<li><a href="{{ '/' | url }}">HOME</a></li>
 					<li>|</li>
-					<li><a href="{{ '/about-me' | url }}">About</a></li>
+					<li><a href="{{ '/blog' | url }}">BLOG</a></li>
 					<li>|</li>
-					<li><a href="{{ '/archive' | url }}">Blog</a></li>						
+					<li><a href="{{ '/about-me' | url }}">ABOUT</a></li>
 				</ul>
 			</nav>
 		</footer>
